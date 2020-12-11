@@ -5,13 +5,13 @@ body {
 #input {
     text-align: center;
     float: center;
-    width: 300px;
+    width: 600px;
     margin-right: auto;
     margin-left: auto;
     border: 2px solid #918de4;
     margin-bottom: 10px;
     border-radius: 10px;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 5px;
 }
 
