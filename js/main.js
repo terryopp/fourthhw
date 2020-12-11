@@ -13,6 +13,7 @@ window.onload = function() {
   }
 
   n.addEventListener('keyup', () => {
+    if (Math.round(n.value*1) != n.value*1) n.value = 10;
     if (n.value*1 > 1) calc.creating(n.value*1);
     writting();
   });
